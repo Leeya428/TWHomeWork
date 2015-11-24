@@ -1,0 +1,396 @@
+ body{
+ 	margin: 0px;
+ 	padding: 0px;
+ 	background-color: #F3F0EA;
+ }
+
+ .header{
+ 	position: relative;
+ 	background-color: rgb(255,252,246);
+ 	width: 100%;
+ 	height: 4em;
+ 	text-align: center;
+ 	margin-top: 0em;
+ 	margin-bottom: 1px;
+ }
+
+ .header a{
+ 	float: left;
+ 	list-style: none;
+ 	font-size: 1em;
+ 	text-align: center;
+ 	text-decoration: none;
+ 	margin-top: 1.5em;
+ 	margin-left: .5em;
+ 	margin-right: .5em;
+ }
+ .headerCenter{
+ 	margin-top: .5em;
+	position: relative;
+ 	width: 60%
+ }
+ .header a:first-child{
+ 	margin-top: 1em;
+ }
+ .icon-facebook3{
+ 	color: #81A8CA;
+ 	padding:.5em;
+ 	font-size: 2em;
+ 	border-right: 1px solid rgb(248,244,238);
+ }
+ .icon-bell{
+ 	padding:.5em;
+ 	color:rgb(73,61,64);
+ 	border:1px solid rgb(209,201,191);
+ 	border-radius: 100%;
+
+ }
+ .icon-mail2{
+ 	padding:.5em;
+	color:rgb(73,61,64);
+	border:1px solid rgb(209,201,191);
+	border-radius: 100%;
+ }
+ .icon-command{
+ 	padding:.5em;
+	color:rgb(73,61,64);
+	text-align: center;
+	border:1px solid rgb(209,201,191);
+	border-radius: 100%;
+ }
+ .icon-twitter{
+ 	color: #81A8CA;
+ 	font-size: 1.5em;
+ }
+ .header .search-area{
+ 	width: 20%;
+ 	float: right;
+ 	position: relative;
+ }
+ .header .search-area input{
+ 	height: 2em;
+ 	width: 150px;
+ 	border:1px solid rgb(209,201,191);
+ 	border-radius: 1em;
+ 	position: absolute;
+ 	left: 0;
+ 	margin-top: 1.3em;
+ }
+ .header .searchImg{
+ 	width: 20px;
+ 	height: 20px;
+ 	border-radius: 100%;
+ 	position: absolute;
+ 	margin-left: 100px;
+    margin-top: 1.2em;
+ }
+ .header .headerImg{
+ 	width: 2em;
+ 	height: 2em;
+ 	border-radius: 100%;
+ 	position: relative;
+ 	margin-left: 150px;
+    margin-top: .8em;
+ }
+ .center{
+ 	width: 100%;
+ 	background-color: #F3F0EA;
+ 	float: left;
+ }
+ .center .left {
+    position: relative;
+    width: 20%;
+    text-align: center;
+    float: left;
+}
+ .center .left .profile{
+ 	background-color: rgb(129,168,202)
+ }
+ .center .left .profile .leftAvator{
+ 	width: 4em;
+ 	height: 4em;
+ 	border-radius: 100%;
+ 	margin-top: 2.5em;
+ }
+ .center .left .profile h3{
+ 	font-weight: bold;
+	font-family: "Roboto",sans-serif;
+	font-size: 1em;
+    color: white;
+ }
+ .center .left .profile p{
+ 	font-weight: lighter;
+	font-family: "Roboto",sans-serif;
+	font-size: .8em;
+	padding-left: 2em;
+	padding-right: 2em;
+	margin-bottom: 2em;
+	margin-top: 1em;
+    color: white;
+ }
+ .center .left .profile a{
+ 	font-family: "Roboto",sans-serif;
+ 	text-decoration: none;
+ 	font-weight: lighter;
+ 	font-size: .8em;
+ 	color: white;
+ }
+ .center .left .profile button{
+ 	margin-top: 2.5em;
+ 	margin-bottom: 3.5em;
+    width: 10em;
+    height: 2em;
+    border-radius: 1em;
+    border: 0;
+    background-color: rgb(109,148,182);
+	color: white;
+	font-family: "Roboto",sans-serif;
+	font-weight: lighter;
+	font-size: .8em;
+ }
+ .center .left .gallery{
+ 	background-color: rgb(129,168,202);
+ 	height: 250px;
+ }
+ .center .left .gallery img{
+ 	float: left;
+ 	width: 33.3%;
+ 	position: relative;
+ }
+ .center .left .activities{
+ 	background-color: rgb(129,168,202);
+ 	color: white;
+	font-size: .8em;
+	text-align: left;
+	padding-left: 2em;
+    padding-bottom: 4.5em;
+    padding-top: 3em;
+ }
+ .center .left .activities h3{
+	font-family: "Roboto",sans-serif;
+	font-weight: lighter;
+
+ }
+ .center .left .activities ul{
+ 	margin:0 auto;
+ 	padding: 0;
+
+ }
+ .center .left .activities li{
+	list-style: none;
+	margin-bottom: .5em;
+	font-family: "Roboto",sans-serif;
+	font-weight: lighter;
+	color: rgb(109,148,182);
+ }
+ .center .left .activities a{
+ 	color: white;
+ }
+
+ .center .content{
+ 	width: 50%;
+ 	position: relative;
+ 	float: left;
+ 	margin-left: 2em;
+ 	margin-right: 2em;
+
+ }
+ .center .content .numbers {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255,252,246);
+    margin: 1em auto;
+    padding: 0 2em;
+    float: left;
+}
+ .center .content .numbers ul{
+ 	margin: 0 auto;
+ 	padding: 0;
+ }
+ .center .content .numbers li{
+	width: 25%;
+	float:left;
+	list-style: none;
+	text-align: center;
+ }
+ .center .content .numbers li:hover{
+ 	border-bottom: 3px solid lightgray;
+ }
+ .center .content .numbers li h4{
+ 	text-transform: uppercase;
+ 	color: lightgray;
+ }
+ .center .content .numbers li p{
+ 	margin-top: 0em;
+ 	font-weight: bold;
+ 	font-family: "Roboto",sans-serif;
+ }
+
+ .center .content .post {
+ 	width: 100%;
+	position: relative;
+	text-align: left;
+	padding: 1em 2em;
+	background-color: rgb(255,252,246);
+	border-bottom: 1px solid white;
+    margin: 1px auto;
+    float: left;
+}
+
+ .center .content .post .avator {
+	width: 3em;
+	height: 3em;
+	border-radius: 100%;
+	position: absolute;
+	top: 2em;
+	left: 2em;
+}
+ .center .content .post section {
+	margin-left: 4em;
+	position: relative;
+	background-color: rgb(255,252,246);
+}
+ .center .content .post section .name{
+	font-weight: bold;
+	font-family: "Roboto",sans-serif;
+}
+ .center .content .post section .account{
+	font-weight: lighter;
+    font-family: "Roboto",sans-serif;
+	color: darkgray;
+	margin-right: 1em;
+	font-size: .8em;
+}
+ .center .content .post section .time{
+	color: darkgray;
+	float: right;
+	margin: 0;
+}
+ .center .content .post header{
+	margin-bottom: 1em;
+}
+ .center .content .post section{
+	margin-bottom: 0em;
+}
+ .center .content .post section p{
+	line-height: 1.4;
+	font-weight: normal;
+	font-size: .8em;
+}
+ .center .content .post section img{
+	width: 100%;
+	margin-bottom: 1em;
+}
+ .center .content .post footer a{
+	text-decoration: none;
+	color: darkgray;
+	margin-right: 1em;
+}
+ .center .content .post footer a:last-child{
+	float: right;
+	margin-right: 0;
+}
+ .center .content .post footer a:hover{
+	color: lightgray;
+}
+ .center .right{
+	width: 20%;
+	position: relative;
+	float: left;
+	margin-left: 3.7em;
+	background-color: rgb(255,252,246);
+}
+ .center .right .trends{
+ 	font-weight: lighter;
+	font-family: "Roboto",sans-serif;
+	font-size: .8em;
+ }
+ .center .right .trends h3{
+ 	text-transform:uppercase;
+ 	padding-left:3em;
+ 	font-weight: lighter;
+	font-family: "Roboto",sans-serif;
+	font-size: .8em;
+ }
+ .center .right .trends li{
+ 	list-style: none;
+ 	color: rgb(129,168,202)
+ }
+ .center .right .to-follow{
+ 	font-weight: lighter;
+	font-family: "Roboto",sans-serif;
+	font-size: .8em;
+	margin-top: 4em;
+	width: 100%;
+	position: relative;
+	text-align: left;
+	height: 660px;
+ }
+ .center .right .to-follow h3{
+ 	text-transform:uppercase;
+ 	padding-left:3em;
+ 	font-weight: lighter;
+	font-family: "Roboto",sans-serif;
+	font-size: .8em;
+ }
+ .center .right .to-follow span{
+ 	text-transform:uppercase;
+	position: absolute;
+	right: .5em;
+	top: 0em;
+ 	font-weight: lighter;
+	font-family: "Roboto",sans-serif;
+	font-size: .8em;
+	color: rgb(129,168,202)
+ }
+ .center .right .to-follow li{
+ 	list-style: none;
+ 	font-weight: lighter;
+	font-family: "Roboto",sans-serif;
+	font-size: .8em;
+	margin-bottom: 1em;
+	width: 100%;
+	position: relative;
+	float: left;
+ }
+ .center .right .to-follow li .avator {
+	width: 2.5em;
+	height: 2.5em;
+	border-radius: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+ .center .right .to-follow li h4{
+	float: left;
+	font-weight: lighter;
+	font-family: "Roboto",sans-serif;
+	font-size: .8em;
+	margin-left: 4em;
+	margin-top: 0em;
+	margin-bottom: 0;
+}
+
+ .center .right .to-follow li h5{
+	float: left;
+	font-weight: lighter;
+	font-family: "Roboto",sans-serif;
+	font-size: .8em;
+	margin-left: 4em;
+	margin-top: .5em;
+	margin-bottom: 0;
+	color: lightgray;
+}
+.center .right .to-follow li button{
+	float: right;
+	margin-right: 1em;
+	margin-top: -1em;
+}
+
+
+
+
+
+
+
+

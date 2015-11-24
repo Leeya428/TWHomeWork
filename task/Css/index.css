@@ -1,0 +1,342 @@
+ .clear{
+ 	clear: both;
+ }
+ .header{
+
+	background: url(../Image/bgImg.jpg);
+	background-size: cover;
+	color: white;
+	height: 600px;
+	text-align: center;
+}
+
+ .header .login {
+ 	padding-top: 10px;
+ 	padding-right: 10px;
+    width: 250px;
+    float: right;
+}
+ .header .login ul li{
+	float: left;
+	list-style: none;
+	padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+	border: 1px solid transparent;
+	font-size: .8em;
+	font-family: "Roboto",sans-serif;
+ }
+  .header .login ul li:last-child{
+	border: 1px solid white;
+	border-radius: 2px;
+
+  }
+
+ .header>.searchBar{
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 10em;
+}
+ .header .searchBar h3{
+	font-size: 2em;
+	font-family: "Roboto",sans-serif;
+ }
+ .header>.searchBar>p{
+	font-size: 1em;
+	font-family: "Roboto",sans-serif;
+ }
+ .header .searchBar .search-area input{
+	background-color: white;
+	padding: .5em;
+	border: 0;
+	width: 18em;
+	border-radius: 2px 0 0 2px;
+	opacity: .3;
+ }
+ .header .searchBar .search-area button{
+	background-color: lightgreen;
+	color: white;
+	padding: .5em;
+	border: 0;
+	width: 6em;
+	border-radius: 0 2px 2px 0;
+ }
+ .numbers {
+ 	width: 80%;
+ 	margin: 0 auto;
+ 	text-align: center;
+ 	background-color: white;
+ }
+ .numbers ul{
+ 	position: relative;
+ 	top: -5em;
+ }
+ .numbers li{
+	float: left;
+	width: 25%;
+	list-style: none;
+	box-sizing: border-box;
+	border-top: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+	border-left: 1px solid lightgray;
+ }
+ .numbers li:last-child{
+ 	border-right: 1px solid lightgray;
+ }
+ .numbers li h2{
+	font-size: 2em;
+	font-family: "Roboto",sans-serif;
+ }
+ .numbers li h3{
+    font-size: 1em;
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+ }
+
+ .how-it-works{
+ 	width: 90%;
+ 	height: 600px;
+ 	margin: 0 auto;
+ 	text-align: center;
+ 	background-color: white;
+ }
+ .how-it-works h2{
+ 	font-size: 2em;
+ 	text-transform: uppercase;
+ 	padding: 1em 0;
+ 	font-family: "Roboto",sans-serif;
+ }
+ .how-it-works h2:after{
+ 	display: block;
+ 	content: "";
+ 	background-color: lightgray;
+ 	width: 2em;
+ 	height: .1em;
+ 	margin: .4em auto;
+ }
+ .how-it-works li{
+ 	float: left;
+ 	width: 33.33%;
+ 	list-style: none;
+ }
+ .how-it-works li:before{
+	display: block;
+	content: "";
+	background-color: lightgray;
+	width:78%;
+	height:1px;
+	position: relative;
+	top: 4em;
+	left: 50%;
+	margin: 0 2em;
+
+
+ }
+ .how-it-works li:last-child:before{
+ 	display: none;
+ }
+ .how-it-works .number{
+ 	font-family: "Roboto",sans-serif;
+ 	font-size: 2em;
+ 	color: lightgray;
+ 	border:1px solid lightgray;
+ 	width: 1em;
+ 	height: 1em;
+ 	display: block;
+ 	margin: 1em auto 2em auto;
+ 	padding: .4em;
+ 	background-color: white;
+ 	border-radius: 100%;
+ }
+ .how-it-works i{
+ 	font-size: 3.6em;
+ }
+
+ .icon-list2 {
+ 	color: #ECA95A;
+ }
+ .icon-pencil {
+ 	color: #AC9CD2;
+ }
+ .icon-users{
+ 	color: #4D99CB;
+ }
+
+.icon-file-zip {
+	color: #FF3366;
+}
+.icon-price-tag {
+	color: #33CCFF;
+}
+.icon-user {
+	color: #9933CC;
+	
+}
+.icon-point-right {
+	color: #FF6600;
+	
+}
+.icon-checkmark {
+	color: #99FFCC;
+	
+}
+.icon-loop2 {
+	color: #FFCC66;
+}
+
+
+ .how-it-works h3{
+ 	font-size: 1em;
+ 	font-family: "Roboto",sans-serif;
+ }
+  .how-it-works p{
+ 	font-size: .5em;
+ 	font-family: "Roboto",sans-serif;
+ }
+
+
+
+ .why-choose-us{
+ 	width: 90%;
+ 	height: 700px;
+ 	margin: 0 auto;
+ 	background-color: white;
+ }
+ .why-choose-us hr{
+	border:1px solid lightgray;
+
+ }
+ .why-choose-us h2{
+ 	font-size: 2em;
+ 	text-transform: uppercase;
+ 	padding: 1em 0;
+ 	text-align: center;
+ 	font-family: "Roboto",sans-serif;
+ }
+
+ .why-choose-us h2:after{
+ 	display: block;
+ 	content: "";
+ 	background-color: lightgray;
+ 	width: 2em;
+ 	height: .1em;
+ 	margin: .4em auto;
+ }
+ .why-choose-us ul{
+ 	vertical-align: center;
+ }
+  .why-choose-us li{
+ 	float: left;
+ 	width: 30%;
+ 	list-style: none;
+ 	margin-right: 6em;
+ 	margin-left: 6em;
+ }
+
+  .why-choose-us i{
+  	width: 15%;
+  	float: left;
+ 	font-size: 1.8em;
+ 	padding-top: .8em;
+ }
+  .why-choose-us .floatRight{
+  	width: 70%;
+  	position: relative;
+ 	font-size: 2em;
+ 	margin-left: 2.5em;
+ 	font-family: "Roboto",sans-serif;
+ }
+
+ .why-choose-us h3{
+ 	float: left;
+ 	font-size: .8em;
+ 	font-family: "Roboto",sans-serif;
+ }
+ .why-choose-us p{
+  	float: left;
+ 	font-size: .4em;
+ 	font-family: "Roboto",sans-serif;
+ }
+ .testimonials-recent-feedbacks{
+ 	width: 70%;
+ 	height: 350px;
+ 	margin: 0 auto;
+ 	background-color: white;
+ 	text-align: center;
+ }
+ .hrstyle{
+	border:1px solid lightgray;
+	width: 1000px;
+	margin: 0 auto;
+ }
+ .testimonials-recent-feedbacks .title-style{
+	font-size: 1em;
+	margin-top: 4em;
+	font-family: "Roboto",sans-serif;
+ }
+ .testimonials-recent-feedbacks .title-style span{
+ 	width: 150px;
+ 	border:1px solid darkgray;
+ 	display: inline-block;
+ 	padding: 1em .5em 1em .5em;
+ 	color: darkgray;
+ }
+ .testimonials-recent-feedbacks .title-style span:first-child{
+ 	background-color: darkgray;
+ 	color: white;
+ }
+ .testimonials-recent-feedbacks h3{
+	width: 100%;
+	font-size: 1em;
+	margin-top: 3em;
+	font-family: "Roboto",sans-serif;
+ }
+ .testimonials-recent-feedbacks h4{
+	font-size: 1em;
+	margin-top: 2em;
+	margin-bottom: 0;
+	font-family: "Roboto",sans-serif;
+ }
+ .testimonials-recent-feedbacks p{
+	font-size: .8em;
+	margin-top: .5em;
+	font-family: "Roboto",sans-serif;
+	font-weight: lighter;
+ }
+ .testimonials-recent-feedbacks img{
+ 	width: 5em;
+ 	height: 5em;
+ 	border-radius: 100%;
+ 	margin-left: 1em;
+ 	margin-right: 1em;
+ }
+ .footer{
+ 	background: url(../Image/footerImg.jpg);
+ 	width: 100%;
+ 	height: 150px;
+ 	text-align: center;
+ 	color: white;
+ 	font-family: "Roboto" sans-serif;
+ }
+
+ .footer input{
+	background-color: white;
+	padding: .5em;
+	border: 0;
+	width: 18em;
+	border-radius: 2px 0 0 2px;
+	opacity: .3;
+	margin-top: 5em;
+ }
+ .footer button{
+	background-color: lightgreen;
+	color: white;
+	padding: .5em;
+	border: 0;
+	width: 6em;
+	border-radius: 0 2px 2px 0;
+ }
+
+
+
